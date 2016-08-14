@@ -1,0 +1,6 @@
+tags
+*.o
+rv*/*
+!rv*/*.s
+!rv*/Makefile
+.vimrc
