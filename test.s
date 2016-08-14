@@ -35,6 +35,7 @@ _exit:
 
 .include "test_case.s"
 .include "test_imm.s"
+.include "test_dop.s"
 .include "test_rr.s"
 .include "test_ld.s"
 .include "test_st.s"
