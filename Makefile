@@ -1,4 +1,4 @@
-dirs = rv64i
+dirs = rv64i rv64m
 all = $(patsubst %,all-%,$(dirs))
 run = $(patsubst %,run-%,$(dirs))
 clr = $(patsubst %,clr-%,$(dirs))
