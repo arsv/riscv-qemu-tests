@@ -32,3 +32,10 @@ _exit:
 	li	a7, 93
 	ecall
 .endm
+
+.include "test_case.s"
+.include "test_imm.s"
+.include "test_rr.s"
+.include "test_ld.s"
+.include "test_st.s"
+.include "test_br.s"
