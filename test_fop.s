@@ -91,3 +91,18 @@
 	bne	a0, a3, fail
 	bne	a1, a2, fail
 .endm
+
+.macro TEST_FP_INT_OP_S T OP flags res val rm
+	j	2f
+1:	.float \val
+	.quad \res
+2:	la	a0, 1b
+	fld	f0, 0(a0)
+	ld	a3, 4(a0)
+	\OP	a0, f0, \rm
+	fsflags	a1, x0
+	li	a2, \flags
+	li	gp, \T
+	bne	a0, a3, fail
+	bne	a1, a2, fail
+.endm

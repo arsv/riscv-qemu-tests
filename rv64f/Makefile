@@ -1,3 +1,3 @@
-all += move recoding fadd ldst fclass fcmp fcvt fdiv fmadd fmin fsgnj
+all += move recoding fadd ldst fclass fcmp fcvt fdiv fmadd fmin fsgnj fcvt_w
 
 include ../common.mk
