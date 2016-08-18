@@ -8,3 +8,10 @@ Because of their minimalistic nature, the tests do not output
 much. Silent exit(0) means success, exit(N) with N > 0 means
 test tagged N failed. Tag is always the first argument for
 the test macros.
+
+
+How to use: check CROSS and QEMU in config.mk, then issue
+
+    make run
+
+It should build and run all available tests on the supplied qemu.
