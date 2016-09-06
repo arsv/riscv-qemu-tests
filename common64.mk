@@ -3,7 +3,7 @@ AS = $(CROSS)as
 LD = $(CROSS)ld
 ASFLAGS = -g -I..
 LDFLAGS = -g
-QEMU = qemu-riscv
+QEMU = qemu-riscv64
 
 .SUFFIXES:
 

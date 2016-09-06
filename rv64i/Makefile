@@ -18,4 +18,4 @@ all += sb sw sd
 all += sll slli sllw slliw
 all += sra srai sraw sraiw srl srli srlw srliw
 
-include ../common.mk
+include ../common64.mk

@@ -1,3 +1,4 @@
-all += move recoding fadd ldst fclass fcmp fcvt fdiv fmadd fmin fsgnj fcvt_w
+all += move movex recoding
+all += fadd ldst fclass fcmp fcvt fdiv fmadd fmin fsgnj fcvt_w
 
-include ../common.mk
+include ../common64.mk
